@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ilgaz/Desktop/DockerNetExample/DockerNetExample/DockerNetExample.csproj": {}
+    "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj": {}
   },
   "projects": {
-    "/Users/ilgaz/Desktop/DockerNetExample/DockerNetExample/DockerNetExample.csproj": {
+    "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ilgaz/Desktop/DockerNetExample/DockerNetExample/DockerNetExample.csproj",
+        "projectUniqueName": "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj",
         "projectName": "DockerNetExample",
-        "projectPath": "/Users/ilgaz/Desktop/DockerNetExample/DockerNetExample/DockerNetExample.csproj",
+        "projectPath": "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj",
         "packagesPath": "/Users/ilgaz/.nuget/packages/",
-        "outputPath": "/Users/ilgaz/Desktop/DockerNetExample/DockerNetExample/obj/",
+        "outputPath": "/Users/ilgaz/Desktop/testt/DockerNetExample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ilgaz/.nuget/NuGet/NuGet.Config"
