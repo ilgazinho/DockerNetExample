@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CKRUuGJC+FqC6WoqOJwuJu9jcHfxnipNTP+r9nDXepE=",
+  "Source": "DockerNetExample",
+  "BasePath": "_content/DockerNetExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
