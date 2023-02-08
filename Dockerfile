@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine as build
 WORKDIR /app
 COPY . .
+COPY ./NuGet.Config ./
 RUN dotnet restore
 RUN dotnet publish -o /app/published-app
 
