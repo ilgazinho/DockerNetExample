@@ -1,31 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj": {}
+    "D:\\Developer\\Github\\API\\DockerNetExample\\DockerNetExample\\DockerNetExample.csproj": {}
   },
   "projects": {
-    "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj": {
+    "D:\\Developer\\Github\\API\\DockerNetExample\\DockerNetExample\\DockerNetExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj",
+        "projectUniqueName": "D:\\Developer\\Github\\API\\DockerNetExample\\DockerNetExample\\DockerNetExample.csproj",
         "projectName": "DockerNetExample",
-        "projectPath": "/Users/ilgaz/Desktop/testt/DockerNetExample/DockerNetExample.csproj",
-        "packagesPath": "/Users/ilgaz/.nuget/packages/",
-        "outputPath": "/Users/ilgaz/Desktop/testt/DockerNetExample/obj/",
+        "projectPath": "D:\\Developer\\Github\\API\\DockerNetExample\\DockerNetExample\\DockerNetExample.csproj",
+        "packagesPath": "C:\\Users\\ILGAZPC\\.nuget\\packages\\",
+        "outputPath": "D:\\Developer\\Github\\API\\DockerNetExample\\DockerNetExample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/ilgaz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ILGAZPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/x64/library-packs": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +47,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.NET.Build.Containers": {
               "target": "Package",
@@ -54,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -66,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
