@@ -1,5 +1,3 @@
-#!/bin/sh
-
 
 # Build docker image
 echo -e "Building docker image..."
