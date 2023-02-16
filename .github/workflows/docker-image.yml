@@ -21,9 +21,9 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag dockernetexample:$(date +%s)
     - name: docker push dockerhub      
       env: 
         DOCKER_USER: ${{secrets.DOCKER_USER}}    
       run: |
-        docker push $DOCKER_USER/dockernetexample
+        docker push $DOCKER_USER/dockernetexample:$(date +%s)
