@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: docker push dockerhub
       run: |
-        docker push ilgazinho/dockernetexample
+        docker push $DOCKER_USER/dockernetexample
