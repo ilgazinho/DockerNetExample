@@ -23,7 +23,5 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag dockernetexample:$(date +%s)
     - name: docker push dockerhub      
-      env: 
-        DOCKER_USER: ${{secrets.DOCKER_USER}}    
       run: |
-        docker push $DOCKER_USER/dockernetexample:$(date +%s)
+        docker push ilgazinho/dockernetexample:1.0.0
