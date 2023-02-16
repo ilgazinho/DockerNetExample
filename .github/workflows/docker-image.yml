@@ -21,7 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag dockernetexample:$(date +%s)
+      run: docker build . --file Dockerfile --tag ilgazinho/dockernetexample:1.0.0
     - name: docker push dockerhub      
       run: |
         docker push ilgazinho/dockernetexample:1.0.0
